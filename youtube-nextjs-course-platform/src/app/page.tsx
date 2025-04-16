@@ -1,4 +1,5 @@
-import Card from "@/components/card/Card";
+
+import { Section } from "@/components/section/Section";
 import { Metadata } from "next";
 
 export const metadata: Metadata ={
@@ -9,7 +10,7 @@ export default function PageHome() {
 
   return (
     <main className="bg-[var(--color-background)]">
-        <Card/>
-      </main>
+        <Section/>
+    </main>
   );
 }
