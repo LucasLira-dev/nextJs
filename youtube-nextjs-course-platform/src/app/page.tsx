@@ -10,7 +10,9 @@ export default function PageHome() {
 
   return (
     <main className="bg-[var(--color-background)]">
-        <Section/>
+        <Section
+        title="Veja mais cursos"
+        variant="h-list"/>
     </main>
   );
 }
