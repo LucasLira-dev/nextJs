@@ -57,8 +57,8 @@ export function Header(){
                 <ul
                 className="flex gap-2 text-[var(--color-text)] text-lg items-center"
                 tabIndex={drawer ? -1 : undefined}>
-                    <li className='my-2 hover:no-underline'>
-                        <Link href='/' className="border-2 rounded-md py-2 px-1 font-bold hover:no-underline"> CODARSE </Link>
+                    <li className='my-2 hover:no-underline !important'>
+                        <Link href='/' className="border-2 rounded-md py-2 px-1 font-bold hover:border-0 !"> CODARSE </Link>
                     </li>
                     <li
                     className="hidden sm:block">

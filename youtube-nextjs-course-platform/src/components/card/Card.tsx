@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface ICardProps {
+export interface ICardProps {
     image: string;
     title: string;
     description: string;
@@ -25,7 +25,7 @@ export default function Card({image, title, description, href}: ICardProps) {
             className="font-extrabold text-lg"> {title} </h4>
 
             <p
-            className="line-clamp-3"> 
+            className="line-clamp-3 sm:line-clamp-4 md:line-clamp-5"> 
                 {description}
             </p>
         </article>
